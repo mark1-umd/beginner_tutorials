@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "beginner_tutorials")
-set(beginner_tutorials_MAINTAINER "viki <viki@todo.todo>")
+set(beginner_tutorials_MAINTAINER "Mark Jenkins <mark1@umd.edu>")
 set(beginner_tutorials_DEPRECATED "")
 set(beginner_tutorials_VERSION "0.0.0")
 set(beginner_tutorials_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")

@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "beginner_tutorials"
 PROJECT_SPACE_DIR = "/home/viki/ROS/beginner_tutorials/catkin_ws/devel"
-PROJECT_VERSION = "0.0.0"
+PROJECT_VERSION = "0.0.1"

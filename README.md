@@ -14,7 +14,7 @@ ROS Indigo-Igloo installed on your system, along with the ROS dependencies ident
 package.xml manifest file (roscpp, rospy, and std_msgs).  The instructions in this README.md file
 assume that you are already familiar with ROS, the ROS catkin build system, and the Eclipse IDE.
 
-##Import into Eclipse IDE to edit and/or build
+## Import into Eclipse IDE to edit and/or build
 To import the project into the Eclipse IDE: clone or download this repository to your
 local machine, then use the Eclipse File -> Import -> General -> Existing Projects
 into Workspace function; press Next, then browse to the catkin_ws/build directory, and
@@ -25,12 +25,12 @@ the workspace.
 Note that this will import the entire catkin workspace contained in this repository as a project into
 your Eclipse IDE, not just the beginner_tutorials ROS package.
 
-##Building outside the Eclipse IDE
+## Building outside the Eclipse IDE
 If you would like to build the ROS package outside of the Eclipse IDE: clone or download this
 repository to your local machine, then set your working directory to the catkin_ws subdirectory and
 issue the command "catkin_make" to build the workspace.
 
-##Running the tutorial programs
+## Running the tutorial programs
 The ROS package beginner_tutorials contains two programs, a ROS publisher called "listener" and a
 ROS subscriber called "publisher."  To run them, first make sure that this workspace has been
 added to your local ROS configuration by executing the catkin_ws/build/setup.bash script in each
